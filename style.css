@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(245, 245, 245, 0.651);
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+    /* text-align: center; */
+}   
+.fetch{
+    display:flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    padding: 20px;
+    gap:30px;
+    /* background: linear-gradient(to right,red 25%, yellow 50%, green 75%); */
+}
+.whole-div{
+    /* display: flex; */
+    
+    width:400px;
+    height:auto;
+    /* border:2px solid black; */
+    border-left-width: 2px;
+    border-left-color: #888888;
+    box-shadow: 5px 8px #888888;
+    border-radius: 30px;
+    padding: 10px;
+    background-color:white;
+    /* gap: 30px; */
+}
+.whole-div:hover{
+    box-shadow: 5px 8px black;
+
+}
+
+
+.img{
+    margin:auto;
+    width: 300px;
+    height: 250px;
+    margin-bottom:10px;
+}
+.title{
+    font-size:18px;
+    font-weight: 900;
+    font-family: "poppins",'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 5px;
+    /* margin-bottom:10px; */
+
+    
+
+}
+
+.content-div{
+    box-sizing: border-box;
+    /* border:2px solid rgb(167, 155, 155); */
+    /* padding: 5px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 10px; */
+    height: 120px;
+
+}
+.img-div{
+    box-sizing: border-box;
+    /* margin-top: 10px; */
+    /* border:2px solid black; */
+    padding: 5px;
+}
+.btn-div{
+    /* margin-bottom: 40px; */
+    margin-top: 5px;
+    box-sizing: border-box;
+    /* border:2px solid black; */
+    padding: 5px;
+    /* justify-self:baseline; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.price{
+    
+    font-weight: 600;
+    text-align: center;
+    font-size:x-large;
+    /* border: 1px solid black; */
+    height: 30px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+.btn{
+    border: 2px solid black;
+    /* margin: auto; */
+    border-radius: 10px;
+    font-family: "poppins",sans-serif;
+    font-weight: 900;
+    background-color: rgba(0, 162, 255, 0.356);
+    width: 200px;
+    /* margin: auto; */
+    padding: 10px 0px;
+    
+
+}
+.btn:hover{
+    background: linear-gradient(45deg,red 25%, yellow 50%, green 75%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .rating{
+    font-weight: 500;
+} */
+/* .category{
+    font-weight: bolder;
+    text-transform: capitalize;
+} */
+
